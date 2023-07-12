@@ -1,0 +1,20 @@
+POST http://localhost:5000/registration 
+Content-Type: application/json
+
+{
+  "username": "nastya",
+  "password": "nastya"
+}
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "vlad",
+  "password": "vlad"
+}
+
+###
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YWVjMTViZjM5YTk1YzA5ZDNiMDFkNiIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNjg5MTc0ODQ1LCJleHAiOjE2ODkyNjEyNDV9.HoAR8nHz_Yf1XhijDEQtTsbaMFREIlRAbVGIUMOFnYI
